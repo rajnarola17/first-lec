@@ -17,8 +17,8 @@ const Timefun = () => {
 
         return () => {
             clearInterval(TimeI);
-        },[Time];
-    });
+        }
+    },[Time]);
 
   return (
     <div>
@@ -27,4 +27,4 @@ const Timefun = () => {
   );
 }
 
-export default Timefun
+export default Timefun;
